@@ -17,7 +17,7 @@ class Grid:
     #Create a matrix size of [X_SIZE, Y_SIZE]
     def create_2d_arr(self):
         print(np.zeros([X_SIZE, 1], dtype=int))
-        return np.zeros([X_SIZE, 1], dtype=int)
+        return [[0 for x in range(X_SIZE)] for y in range(Y_SIZE)]
 
     def update(self):
         pass
